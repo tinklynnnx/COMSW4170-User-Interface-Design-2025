@@ -1,0 +1,83 @@
+.newsletter-screen {
+    flex: 1;
+    background: linear-gradient(to bottom, #dbeafe, #eff6ff);
+    overflow-y: auto;
+    padding-bottom: 70px;
+}
+
+.newsletter-card {
+    background: linear-gradient(135deg, #6CACE4 0%, #6CACE4 100%);
+    border-radius: 20px;
+    padding:20px;
+    box-shadow: 0 8px 24px rgba(59, 130, 246, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter-hero {
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.newsletter-content {
+    width: 100%;
+
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.tags {
+    color: #fff;
+    font-size: 11px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.content-text {
+    color: #fff;
+    font-size: 11px;
+    margin-bottom: 12px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.content-paragraph {
+    margin-bottom: 5px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.secondary-image {
+    border-radius: 12px;
+    padding: 6px;
+    margin-bottom: 12px;
+}
+
+.activity-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.footer-text {
+    color: #fff;
+    font-size: 9px;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.footer-text p {
+    margin-bottom: 3px;
+}

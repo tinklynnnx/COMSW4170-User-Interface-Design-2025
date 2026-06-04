@@ -1,0 +1,365 @@
+.club-home-screen {
+    flex: 1;
+    background: linear-gradient(to bottom, #dbeafe, #eff6ff);
+    overflow-y: auto;
+    padding-bottom: 70px;
+}
+
+.screen-padding {
+    padding: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.header-title {
+    color: #6CACE4;
+    padding-right: 60px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.user-icon {
+    width: 30px;
+    height: 30px;
+    color: #4b5563;
+}
+
+.club-card {
+    background: linear-gradient(135deg, #6CACE4 0%, #6CACE4 100%);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 8px 24px rgba(59, 130, 246, 0.3);
+    position: relative;
+}
+
+.logo-card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 12px;
+    padding-bottom: 40px;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+}
+
+.logo-content {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.logo-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.about-section {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.about-content-with-logo {
+    margin-bottom: 12px;
+}
+
+.about-text-column {
+    width: 100%;
+}
+
+.section-title {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    letter-spacing: 0.3px;
+}
+
+.about-text {
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.6;
+    opacity: 0.95;
+    text-align: left;
+    font-weight: 400;
+}
+
+.about-text-full {
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.6;
+    opacity: 0.95;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    padding-right: 0;
+    text-align: justify;
+}
+
+.newsletter-toggle {
+    margin-top: 12px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    padding: 14px 16px;
+    gap: 16px;
+    transition: background 0.2s ease;
+}
+
+.newsletter-toggle:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.toggle-text {
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+}
+
+.toggle-switch {
+    width: 40px;
+    height: 20px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+
+.toggle-slider {
+    width: 16px;
+    height: 16px;
+    background: #6CACE4;
+    border-radius: 50%;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+}
+
+.event-carousel {
+    margin-top: 0;
+    margin-bottom: 16px;
+    padding: 0 16px;
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    padding-bottom: 8px;
+    scroll-behavior: smooth;
+}
+
+.event-card {
+    width: 250px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.event-card.clickable {
+    cursor: pointer;
+}
+
+.event-card.clickable:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.event-image {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 2px;
+}
+
+.event-title {
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.event-details1-text {
+    font-size: 8.5px;
+    color: #4b5563;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.read-more-btn {
+    width: 100%;
+    background: #6CACE4;
+    color: #fff;
+    font-size: 9px;
+    padding: 3px 0;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.upcoming-section {
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 3px 16px rgba(0, 0, 0, 0.1);
+}
+
+.upcoming-header {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.section-title-dark {
+    color: #1f2937;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.toggle-switch-blue {
+    width: 40px;
+    height: 20px;
+    background: #6CACE4;
+    border-radius: 10px;
+    position: relative;
+}
+
+.toggle-slider-white {
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+}
+
+.calendar-widget {
+    background: #f9fafb;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.calendar-nav {
+    color: #9ca3af;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.calendar-month {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 6px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.calendar-day-label {
+    color: #6b7280;
+    font-weight: 600;
+}
+
+.calendar-day {
+    padding: 3px 0;
+    color: #4b5563;
+}
+
+.calendar-day.selected {
+    background: #000;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.event-details {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+.event-details.clickable:hover {
+    background: #f9fafb;
+}
+
+.event-details-title {
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.event-details-text {
+    font-size: 10px;
+    color: #4b5563;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.event-meta {
+    display: flex;
+    gap: 12px;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.meta-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #4b5563;
+}
+
+.meta-icon {
+    width: 15px;
+    height: 15px;
+}
+
+.rsvp-btn-center {
+    background: #6CACE4;
+    color: #fff;
+    margin-top: 20px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 11px;
+    cursor: pointer;
+    display: block;
+}
